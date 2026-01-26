@@ -7,5 +7,9 @@ int main() {
   for (int i : arr)
     cout << i;
 
+  for(auto x : arr) {
+    cout << 2*x << endl;
+  }
+
   return 0;
 }
